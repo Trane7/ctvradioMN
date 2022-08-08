@@ -8,48 +8,49 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             {/* Column 1 */}
-            <div className="col-md-3 col-sm-6">
+            <div className="column">
               <h4>Contact</h4>
-              <ul className="list-unstyled">
+              <ul className="list">
+              <li>Twin Cities,</li>
                 <li>Minnesota</li>
-                <li>Twin Cities</li>
                 <li>ctvradiomn@gmail.com </li>
               </ul>
             </div> 
             {/* Column 1 */}
-            <div className="col-md-3 col-sm-6">
+            <div className="column">
               <h4>Navigation</h4>
-              <ul className="list-unstyled">
-                <li>Home</li>
-                <li>Catalog</li>
-                <li>Submit A Song</li>
+              <ul className="list">
+                <li><a href='#hero'>Home</a></li>
+                <li><a href='#catalog'>Catalog</a></li>
+                <li><a href='https://docs.google.com/forms/d/e/1FAIpQLSfv8BOmk0Vfwtot5YTauNWYUWdbPkqqxna4D5atp3Q8ff-nUA/viewform'>Submit A Song</a></li>
               </ul>
             </div> 
-            {/* Column 1 */}
-            <div className="col-md-3 col-sm-6">
+            {/* Column 2 */}
+            <div className="column">
               <h4>Support</h4>
-              <ul className="list-unstyled">
-                <li>TikTok</li>
-                <li>Telegram</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>YouTube</li>
-                <li>Twitch</li>
-                <li>Cash App</li>
+              <ul className="list">
+                <li><a href='https://beacons.ai/bestllc?fbclid=IwAR14xZXSDflVzS6z-65QLScEMg_-z2Zi8FS-XoOg5g4ySY3sJrCj7542Pxo#email'>Subscribe</a></li>
+                <li><a href='https://www.tiktok.com/@ctvradio'>TikTok</a></li>
+                <li><a href='https://t.me/+k6KPiIj1bmg0YWUx'>Telegram</a></li>
+                <li><a href='https://www.instagram.com/ctvradiomn/'>Instagram</a></li>
+                <li><a href='https://twitter.com/ctvradio'>Twitter</a></li>
+                <li><a href='https://www.youtube.com/channel/UC-rK-SkGWEMDhzVzzuE3VEw'>YouTube</a></li>
+                <li><a href='https://www.twitch.tv/ctvradio'>Twitch</a></li>
+                <li><a href='https://cash.app/$ctvradiomn'>Cash App</a></li>
               </ul>
             </div> 
-            {/* Column 1 */}
-            <div className="col-md-3 col-sm-6">
+            {/* Column 3 */}
+            <div className="column">
               <h4>Policies</h4>
-              <ul className="list-unstyled">
-                <li>Return Policy</li>
-                <li>Privacy Policy</li>
+              <ul className="list">
+                <li><a href='/'>Return Policy</a></li>
+                <li><a href='/'>Privacy Policy</a></li>
               </ul>
             </div> 
           </div>
           {/* Footer Bottom */}
           <div className="footer-bottom">
-            <p className="text-xs-center">
+            <p className="bottom">
               &copy;{new Date().getFullYear()} CTV Radio Website - All Rights Reserved
             </p>
           </div>
@@ -58,72 +59,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// import { FiFacebook, FiInstagram, FiTwitter, FiTwitch, FiYoutube } from 'react-icons/fi'
-// import "../footer/footer.scss";
-
-// const Footer = () => {
-
-//     return (
-//         <div className='footer-container'>
-//             <div className='footer-links'>
-//                 <div className='footer-link-wrapper'>
-//                     <div className='footer-link-items'>
-//                         <h3>Navigation</h3>
-//                         <Link to="/">Home</Link>
-//                         <Link to="/catalog">Catalog</Link>
-//                         <Link to="/">Submit A Song</Link>
-//                     </div>
-//                     <div className='footer-link-wrapper'>
-//                         <div className='footer-link-items'>
-//                             <h3>Support Us</h3>
-//                             <a href="https://google.com" target="_blank" rel="noreferrer">
-//                                 Google.com
-//                             </a>
-//                             <Link to="/">TikTok</Link>
-//                             <Link to="/">Telegram</Link>
-//                             <Link to="/">Instagram</Link>
-//                             <Link to="/">Twitter</Link>
-//                             <Link to="/">YouTube</Link>
-//                             <Link to="/">Twitch</Link>
-//                             <Link to="/">Cash App</Link>
-//                         </div>
-//                         <div className='footer-link-wrapper'>
-//                             <div className='footer-link-items'>
-//                                 <h3>Policies</h3>
-//                                 <Link to="/">Return & Exchange Policy</Link>
-//                                 <Link to="/">Privacy Policy</Link>
-//                                 <Link to="/">Refund Policy</Link>
-//                             </div>
-//                         </div>
-//                     </div>
-
-//                     <section className='footer-subscription'>
-//                         <p className='footer-subscription-heading'>
-//                             Join the Family
-//                         </p>
-//                         <div className='input-areas'> {/* Button Path needs to be fixed!!!!! */}
-//                             <a href='https://beacons.ai/bestllc?fbclid=IwAR14xZXSDflVzS6z-65QLScEMg_-z2Zi8FS-XoOg5g4ySY3sJrCj7542Pxo'>
-//                                 <button className="footer-button" >Subscribe</button>
-//                             </a>
-//                             <div className="social-group">
-//                                 <FiInstagram className='social-icon' />
-//                                 <FiFacebook className='social-icon' />
-//                                 <FiTwitter className='social-icon' />
-//                                 <FiTwitch className='social-icon' />
-//                                 <FiYoutube className='social-icon' />
-//                                 {/* <FiCashApp className='social-icon' />
-//                             <FiTicTok className='social-icon' />
-//                             <FiTelegram className='social-icon' /> */}
-//                             </div>
-//                         </div>
-//                     </section>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default Footer;

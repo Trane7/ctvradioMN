@@ -12,7 +12,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
           </a>
           <div className="itemContainer">
             {/* <QueueIcon className="icon" /> */}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfv8BOmk0Vfwtot5YTauNWYUWdbPkqqxna4D5atp3Q8ff-nUA/viewform?autoplay=1">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfv8BOmk0Vfwtot5YTauNWYUWdbPkqqxna4D5atp3Q8ff-nUA/viewform">
               Submit A Song
             </a>
           </div>
