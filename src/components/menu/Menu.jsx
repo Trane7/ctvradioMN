@@ -11,9 +11,6 @@ export default function Menu({ menuOpen, setMenuOpen }) {
             <li onClick={()=>setMenuOpen(false)}>
                 <a href="#catalog">Catalog</a>
             </li>
-            <li onClick={()=>setMenuOpen(false)}>
-                <a href="#footer">Support</a>
-            </li>
         </ul>
     </div>
   )
