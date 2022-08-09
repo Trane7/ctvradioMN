@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ctvradioo/static/css/main.cf86b51d.css",
+    "main.js": "/ctvradioo/static/js/main.4baff5e8.js",
+    "static/media/ctvlogotran.jpg": "/ctvradioo/static/media/ctvlogotran.dbb62fd058a0437356da.jpg",
+    "index.html": "/ctvradioo/index.html",
+    "main.cf86b51d.css.map": "/ctvradioo/static/css/main.cf86b51d.css.map",
+    "main.4baff5e8.js.map": "/ctvradioo/static/js/main.4baff5e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf86b51d.css",
+    "static/js/main.4baff5e8.js"
+  ]
+}
